@@ -1,7 +1,7 @@
 
 <template> 
     <nav class="bg-green-900 flex justify-between items-center p-4">
-        <img src="../src/assets/image/palace.jpg" alt="Rwanda Flag" class="w-10 h-10 rounded-full">
+        <img src="../src/assets/image/conv.jpg" alt="Rwanda Flag" class="w-10 h-10 rounded-full">
         <span class="text-white text-lg font-bold ">Tembera Urwanda</span>
 
     <ul class="text-white flex space-x-4 font medium w-full justify-end text-bold">
