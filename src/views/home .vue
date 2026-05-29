@@ -146,13 +146,7 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="bg-black text-white py-6 text-center">
-      <p class="text-gray-400">
-        © 2026 Visit Rwanda | Designed with Vue & Tailwind CSS
-      </p>
-    </footer>
-
+   
   </div>
 </template>
 
