@@ -1,10 +1,8 @@
 <script setup></script>
 
 <template>
-  <!-- HOME PAGE -->
   <div>
     
-    <!-- NAVBAR -->
     
 
     <!-- HERO SECTION -->
@@ -76,7 +74,7 @@
           <!-- CARD 1 -->
           <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
             <img
-              src="/src/assets/image/gorilla.jpg"
+              src="/..src/assets/image/gorilla.jpg"
               alt="Gorilla"
               class="w-full h-64 object-cover"
             />
