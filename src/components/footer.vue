@@ -9,17 +9,17 @@
     <h4 class="text-yellow-300 font-bold text-lg mb-3">Quick links</h4>
     <ul class="space-y-2 text-sm">
         <li>
-            <RouterLink to="/"class="hover:text-blue-400">Home</RouterLink><br>
-               </li>
-                  <li>
-            <RouterLink to="/about"class="hover:text-blue-400">about</RouterLink><br>   </li>
-                <li>
-            <RouterLink to="/contact"class="hover:text-blue-400">contact</RouterLink><br>
-               </li>
-                  <li>
-            <RouterLink to="/services"class="hover:text-blue-400">services</RouterLink><br>   </li>
-                  
-           
+            <router-link to="/" class="hover:text-blue-400">Home</router-link><br>
+        </li>
+        <li>
+            <router-link to="/about" class="hover:text-blue-400">About</router-link><br>
+        </li>
+        <li>
+            <router-link to="/contact" class="hover:text-blue-400">Contact</router-link><br>
+        </li>
+        <li>
+            <router-link to="/services" class="hover:text-blue-400">Services</router-link><br>
+        </li>
        
     </ul>
     </div>
@@ -27,22 +27,24 @@
         <h5 class="text-yellow-300 font-bold text-lg mb-3">Destination</h5>
         <ul class="space-y-2 text-sm ">
             <li>
-            <Routerlink to="/"class="hover:text-blue-400">Northern province</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">Eastern province</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">Kigali city</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">Western province</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">Southern province</Routerlink>
+            <router-link to="/northern" class="hover:text-blue-400">Northern Province</router-link><br>
+            <router-link to="/eastern" class="hover:text-blue-400">Eastern Province</router-link><br>
+            <router-link to="/kigali" class="hover:text-blue-400">Kigali City</router-link><br>
+            <router-link to="/western" class="hover:text-blue-400">Western Province</router-link><br>
+            <router-link to="/southern" class="hover:text-blue-400">Southern Province</router-link>
             </li>
         </ul>
      </div>
         <div>
-        <h5 class="text-yellow-300 font-bold text-lg mb-3">contact us</h5>
-        <ul class="space-y-2 text-sm ">  
-             <li>
-            <Routerlink to="/"class="hover:text-blue-400">email@</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">phone+250</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">address</Routerlink><br>
-            <Routerlink to="/"class="hover:text-blue-400">kagugu,kigali,Rwanda</Routerlink><br>
+        <h5 class="text-yellow-300 font-bold text-lg mb-3">Contact us</h5>
+        <ul class="space-y-3 text-sm ">  
+            <li>
+              <router-link to="/contact" class="hover:text-blue-300">Go to contact page</router-link>
+            </li>
+            <li>
+              <span class="text-white">Email: ikizaberamo@email</span><br>
+              <span class="text-white">Phone: +250 793 211 549</span><br>
+              <span class="text-white">Address: Kagugu, Kigali, Rwanda</span><br>
             </li>
         </ul>   
        </div>
