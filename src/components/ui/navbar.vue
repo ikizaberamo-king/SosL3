@@ -36,10 +36,15 @@ const themeLabel = computed(() => (settings.theme === 'dark' ? t('theme.light') 
           </ul>
         </li>
         <li><router-link to="/contact" class="hover:text-yellow-300">{{ t('navbar.contact') }}</router-link></li>
-        <li><router-link to="/login" class="hover:text-yellow-300">{{ t('navbar.login') }}</router-link></li>
       </ul>
 
       <div class="flex flex-wrap items-center gap-3 justify-center md:justify-end">
+        <router-link
+          to="/login"
+          class="rounded-full bg-green-900 px-4 py-2 text-sm font-semibold text-white shadow-lg transition hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-500/30"
+        >
+          {{ t('navbar.login') }}
+        </router-link>
         <button
           type="button"
           @click="toggleTheme"
