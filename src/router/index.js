@@ -5,7 +5,7 @@ import Contact from"../views/contact.vue";
 import Services from "@/views/services.vue";
 import Photos from "../views/photos.vue";
 import Videos from "../views/videos.vue";
-import Northern from "../views/Northern.vue";
+import Northern from "../views/northern.vue";
 import Eastern from "../views/Eastern.vue";
 import Kigali from "../views/Kigali.vue";
 import Western from "../views/Western.vue";
