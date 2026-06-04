@@ -1,14 +1,17 @@
 <script setup>
 import aboutImage from '@/assets/image/kigali.jpg'
+import { useSettings } from '@/composables/useSettings.js'
+
+const { t } = useSettings()
 </script>
 
 <template>
   <section class="space-y-10 p-6 md:p-10">
     <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] items-center">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-green-700">About Tembera Urwanda</p>
-        <h1 class="mt-4 text-4xl font-bold text-slate-900">Our mission is to share Rwanda’s beauty with the world.</h1>
-        <p class="mt-6 text-lg leading-8 text-slate-600">Tembera Urwanda is a travel platform built to connect visitors with Rwanda’s most inspiring landscapes, wildlife adventures, and cultural experiences. We aim to make travel planning simple, safe, and memorable.</p>
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-green-700">{{ t('about.heroTag') }}</p>
+        <h1 class="mt-4 text-4xl font-bold text-slate-900 dark:text-slate-100">{{ t('about.heroTitle') }}</h1>
+        <p class="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300">{{ t('about.heroText') }}</p>
       </div>
 
       <div class="rounded-[2rem] overflow-hidden border border-slate-200 shadow-lg">

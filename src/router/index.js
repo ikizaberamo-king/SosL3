@@ -12,13 +12,14 @@ import Western from "../views/Western.vue";
 import Southern from "../views/Southern.vue";
 import Login from "../views/login.vue";
 import Register from "../views/register.vue";
-
+import Dashboard from "../views/dashboard/dashboard.vue";
 
 const routes=[
     {path:"/",name:"Home",component:Home},
     {path:"/about",name:"About",component:About},
     {path:"/contact",name:"Contact",component:Contact},
     {path:"/services",name:"services",component:Services},
+    {path:"/dashboard",name:"Dashboard",component:Dashboard},
     {path:"/gallery",redirect:"/gallery/photos"},
     {path:"/gallery/photos",name:"Photos",component:Photos},
     {path:"/gallery/videos",name:"Videos",component:Videos},

@@ -1,17 +1,20 @@
 <script setup>
 import heroImage from '@/assets/image/Rwanda.jpg'
+import { useSettings } from '@/composables/useSettings.js'
+
+const { t } = useSettings()
 </script>
 
 <template>
   <section class="space-y-10 p-6 md:p-10">
     <div class="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] items-center">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-green-700">Explore Rwanda</p>
-        <h1 class="mt-4 text-5xl font-bold text-slate-900">Welcome to Tembera Urwanda</h1>
-        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">Discover the beauty of Rwanda through immersive travel experiences, scenic destinations, wildlife encounters, and cultural tours designed for every explorer.</p>
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-green-700">{{ t('home.heroTag') }}</p>
+        <h1 class="mt-4 text-5xl font-bold text-slate-900 dark:text-slate-100">{{ t('home.heroTitle') }}</h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">{{ t('home.heroText') }}</p>
         <div class="mt-8 flex flex-wrap gap-4">
-          <a href="/services" class="rounded-full bg-green-900 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-green-800">View Services</a>
-          <a href="/gallery/photos" class="rounded-full border border-green-900 px-6 py-3 text-sm font-semibold text-green-900 hover:bg-green-50">Browse Gallery</a>
+          <a href="/services" class="rounded-full bg-green-900 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-green-800">{{ t('home.viewServices') }}</a>
+          <a href="/gallery/photos" class="rounded-full border border-green-900 px-6 py-3 text-sm font-semibold text-green-900 hover:bg-green-50 dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-800">{{ t('home.browseGallery') }}</a>
         </div>
       </div>
 
